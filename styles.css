@@ -1,0 +1,25 @@
+body {
+  font-family: "Robot",Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+section{
+	margin:0 0 30px;
+	padding: 30px;
+	background-color: #eee
+}
+
+
+.Tabs>li{
+	padding: 5px;
+	border-bottom: 5px solid transparent;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.Tabs>li.active{
+	border-bottom-color: gray;
+	cursor: default;
+}
